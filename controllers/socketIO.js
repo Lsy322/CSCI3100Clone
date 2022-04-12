@@ -5,7 +5,7 @@ const rest = require("./restaurant");
 //Socket.IO Setup on port 8080
 const io = require("socket.io")(8080, {
   cors: {
-    origin: ["http://localhost:3000"],
+    origin: ["https://csci3100react.herokuapp.com/"],
   },
 });
 
